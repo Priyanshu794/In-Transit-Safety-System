@@ -1,0 +1,11 @@
+cat << 'EOF' > .gitignore
+# Security keys and certificates
+Data capture/cert.pem
+Data capture/key.pem
+
+# Python clutter
+__pycache__/
+*.pyc
+.venv/
+venv/
+EOF
